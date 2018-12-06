@@ -1,0 +1,126 @@
+
+#intro{
+  background: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* START NAVIGATION MENU */
+.navigation{
+  font-family: 'Oswald', sans-serif;
+  width: 100%;
+  height: 100px;
+}
+
+  .logo{
+    width: 25%;
+    height: 100px;
+    float: left;
+  }
+
+    .logo img{
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+  .nav_menu{
+    width: 60%;
+    height: 100px;
+    float: left;
+  }
+
+    .nav_menu ul{
+      float: right;
+      margin-top: 30px;
+    }
+
+    .nav-link{
+      font-family: 'Oswald', sans-serif;
+      color: white;
+    }
+
+  .buy_button{
+    width: 15%;
+    height: 100px;
+    float: left;
+  }
+
+    .buy_button button{
+      font-family: 'Oswald', sans-serif;
+      padding: 15px 40px 15px 40px;
+      margin-top: 20px;
+      margin-right: 20px;
+      float: right;
+    }
+/* END NAVIGATION MENU */
+
+/* START INTRO TEXT */
+.intro_text {
+    /* padding:200px; */
+    text-align: center;
+    background: none;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 100px;
+}
+
+  .pink_text {
+      color:#ec398b
+  }
+
+  .orange_text {
+      color:#efa506
+  }
+
+  .sky_blue_text {
+      color:#00acee
+  }
+
+  .yellow_text {
+      color:#fff200;
+  }
+
+  .green_text {
+      color:#9ACD32;
+  }
+
+  .white_text{
+    color: #FFF
+  }
+
+  .couting h2{
+    display: inline;
+    margin-right: 25px;
+  }
+
+    .intro_text h2{
+      font-size: 60px;
+      font-weight: bold;
+    }
+
+    .vertical_text {
+      color: white;
+      transform: rotate(180deg);
+      writing-mode: vertical-rl;
+      font-size: 22px;
+      font-weight: lighter;
+    }
+
+  .intro_text h1{
+    font-size: 100px;
+    font-weight: bold;
+  }
+
+    .intro_text p{
+      font-size: 20px;
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      line-height: 0.7;
+    }
+
+  .intro_text button{
+    font-family: 'Oswald', sans-serif;
+    padding: 15px 40px 15px 40px;
+  }
+/* END INTRO TEXT */
